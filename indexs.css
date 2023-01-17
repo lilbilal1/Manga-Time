@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #334d50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cbcaa5, #334d50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cbcaa5, #334d50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+nav{
+    background: rgb(62,60,59);
+    background: linear-gradient(90deg, rgba(62,60,59,1) 0%, rgba(149,187,186,1) 50%, rgba(0,0,0,1) 100%);
+   
+    color: white;
+}
+#polo{
+    color: white;
+}
+.first-letter{
+    color: gold;
+}
+.containers{
+    display: flex;
+   border: 1px black solid;
+   box-shadow: 0 0 20px black;
+   margin-top: 10px;
+}
+.contain{
+    display: flex;
+    padding: 30px;
+    
+}
+img{
+    width: 400px ;
+    height: 500px;
+    box-shadow: 0 0 15px black;
+}
+.text{
+    padding: 20px;
+    line-height: 25px;
+    font-family: cursive;
+}
+h3{
+    color: black;
+    text-decoration: underline black;
+}
+.the-story{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.description{
+    border: 1px black solid;
+    box-shadow: 0 0 20px black;
+    flex-wrap: wrap;
+    padding-left: 25px;
+    margin-top: 15px;
+    color: black;
+    padding-right: 5px;
+}
+span{
+    text-decoration: underline black;
+}
+.chapters{
+    padding: 10px;
+    text-decoration: underline rgb(105, 103, 103);
+}
+#list-group-chapter{
+    background-color: rgb(29, 28, 28);
+    color: white;
+    margin-top: 20px;
+}
+.read-manga{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+@media screen and (max-width:800px) {
+    .contain{
+        flex-wrap: wrap;
+        
+        column-gap: 20px;
+        justify-content: center;
+       
+    }
+    .text{
+        padding: px;
+    }
+    h1{
+        text-decoration: underline yellow;
+    }
+    img{
+        width: 200px;
+        height: 300px;
+    }
+}
