@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+nav{
+    background: rgb(62,60,59);
+background: linear-gradient(90deg, rgba(62,60,59,1) 0%, rgba(149,187,186,1) 50%, rgba(0,0,0,1) 100%);
+    color: white;
+}
+.letter-color{
+    color: gold;
+}
+#polo{
+    color: white;
+}
+.container-list1{
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-evenly;
+    padding: px;
+    justify-content: ;
+    row-gap: 30px;
+    column-gap: 2px;
+    padding: 10px;
+}
+.contain{
+    margin: px;
+}
+img.photo{
+    width: 240px;
+    height: 200px;
+    border: 1px black solid;
+    box-shadow: 0 0 20px black;
+    cursor: pointer;   
+    margin-bottom: 5px; 
+    
+}
+.read-link{
+    text-decoration: none;
+}
+h5{
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 20px;
+    align-self: center;
+    margin-top: 60px;
+    color: black;
+    background-color: white;
+}
+.text-manga{
+    padding: 10px;
+}
+h1{
+    margin: 10px;
+    font-family: cursive;
+    text-decoration: underline black;
+    text-shadow:  0 0 10px black;
+}
+.numbers{
+    text-align: center;
+    padding: 30px 0;
+
+}
+#luffy{
+    width: 35px;
+    height: 30px;
+    background-color: black;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+}
+.next{
+    color: black;
+}
+.number1{
+    color: yellow;
+}
+.insta-icon{
+    width: 30px;
+
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+@media screen and (max-width:600px) {
+    img.photo{
+        width: 140px;
+    }
+    h1{
+        text-decoration: underline yellow;
+    }
+    .container-list1{
+        flex-wrap: row;
+        
+    }
+
+}
