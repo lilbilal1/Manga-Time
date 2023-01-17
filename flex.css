@@ -106,5 +106,8 @@ h1{
        text-align: center;
         
     }
+    .contain{
+        margin: 0px 10px;
+    }
 
 }
