@@ -95,7 +95,7 @@ h1{
 }
 @media screen and (max-width:600px) {
     img.photo{
-        width: 200px;
+        width: 185px;
     }
     h1{
         text-decoration: underline yellow;
@@ -106,8 +106,6 @@ h1{
        text-align: center;
         
     }
-    .contain{
-        padding: 0px 10px;
-    }
+  
 
 }
