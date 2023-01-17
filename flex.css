@@ -95,7 +95,7 @@ h1{
 }
 @media screen and (max-width:600px) {
     img.photo{
-        width: 185px;
+        width: 175px;
     }
     h1{
         text-decoration: underline red;
