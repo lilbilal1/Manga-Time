@@ -131,7 +131,7 @@ a{
 @media screen and (max-width: 600px) {
     .all-box {
         grid-template-columns: repeat(2, 1fr);
-        gap: 60PX 15PX;
-        margin: 15PX;
+        gap: 60PX 8PX;
+        margin: 8PX;
     }
 }
