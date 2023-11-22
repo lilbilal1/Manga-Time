@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #3E5151;
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+    background: linear-gradient(to right, #DECBA4, #3E5151);
+}
+.navbar{
+    background: rgb(59,64,63);
+    background: linear-gradient(90deg, rgba(59,64,63,1) 0%, rgb(72, 126, 129) 50%, rgba(61, 67, 67, 0.897) 100%);
+    color: white;
+    font-family: cursive;
+}
+a{
+    text-decoration: none;
+}
+.navbar-nav{
+    color: white;
+}
+.nav-link{
+    color: silver;
+    font-size: 17PX;
+    font-family: sans-serif;
+    letter-spacing: 1PX;
+}
+.home{
+    color: white;
+}
+
+.navbar-manga{
+    color: white;
+    font-size: 27px;
+    letter-spacing: 1PX;
+}
+.logo-letter{
+    color: goldenrod;
+}
+.search-bar{
+    border-radius: 20PX;
+    border: 2PX solid white;
+    background-color: transparent;
+}
+
+.search-bar:focus,
+.search-bar:active {
+    background-color: transparent;
+    box-shadow: none; /* Optional: Remove any box shadow on focus/active state */
+    color: white;
+    border: 2PX solid white;
+}
+
+.search-bar::placeholder{
+    color: white;
+    letter-spacing: 1PX;
+}
+.btn{
+    border: 2PX solid white;
+    background-color: transparent;
+    color: white;
+
+}
+.btn:hover{
+    border: 2PX solid white;
+    background-color: black;
+
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' fill='none'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+    border: 2px solid black;
+}
+/*the End of nav-bar*/
+.all-box{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
+    gap: 60PX 20PX;
+    margin: 20PX;
+}
+.box{
+    border: 2PX solid black;
+    height: 205px;
+    box-shadow: 0px 0px 10px red;
+    flex-grow: 1;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+.box button{
+    width: 100%;
+    margin: 5PX 0;
+    border: 2px silver solid;
+    border-radius: 20Px;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgba(255, 255, 255, 0.845);
+    color: black;
+    height: 30PX;
+    font-weight: 700;
+    font-family: cursive;
+    letter-spacing: 1PX;
+    text-transform: capitalize;
+}
+.box button:hover{
+    background-color: transparent;
+}
+.numbers{
+    text-align: center;
+    margin-top: 70PX;
+    margin-bottom: 200PX;
+}
+.number1{
+    color: #f9004d;
+}
+#luffy{
+    width: 35px;
+    height: 30px;
+    background-color: silver;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 5px;
+    margin-left: ;
+    cursor: pointer;
+}
+.next{
+    color: black; 
+    margin-left: 3PX;
+}
+@media screen and (max-width: 600px) {
+    .all-box {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60PX 15PX;
+        margin: 15PX;
+    }
+}

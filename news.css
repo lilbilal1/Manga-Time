@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background: rgb(59,64,63);
+    background: linear-gradient(90deg, rgba(59,64,63,1) 0%, rgb(72, 126, 129) 50%, rgba(61, 67, 67, 0.897) 100%);
+    color: white;
+    font-family: cursive;
+}
+a{
+    text-decoration: none;
+}
+.navbar-nav{
+    color: white;
+}
+.nav-link{
+    color: silver;
+    font-size: 17PX;
+    font-family: sans-serif;
+    letter-spacing: 1PX;
+}
+.news{
+    color: white;
+}
+
+.navbar-manga{
+    color: white;
+    font-size: 27px;
+    letter-spacing: 1PX;
+}
+.logo-letter{
+    color: goldenrod;
+}
+.search-bar{
+    border-radius: 20PX;
+    border: 2PX solid white;
+    background-color: transparent;
+}
+
+.search-bar:focus,
+.search-bar:active {
+    background-color: transparent;
+    box-shadow: none; /* Optional: Remove any box shadow on focus/active state */
+    color: white;
+    border: 2PX solid white;
+}
+
+.search-bar::placeholder{
+    color: white;
+    letter-spacing: 1PX;
+}
+.btn{
+    border: 2PX solid white;
+    background-color: transparent;
+    color: white;
+
+}
+.btn:hover{
+    border: 2PX solid white;
+    background-color: black;
+
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' fill='none'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+    border: 2px solid black;
+}
+.card-img-top{
+    height: 200Px;
+}
+.news-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15PX 10PX;
+    margin: 20PX;
+}
+.news-container .card{
+    box-shadow: 0 0  20PX black;
+    border: 1PX solid black;
+}
+.news-container .card p{
+    font-size: 16.5PX;
+}

@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.contain{
+    padding: 20PX;
+    margin: 30PX;
+    border: 3PX solid silver;
+    border-radius: 10PX;
+    box-shadow: 0 0  30PX black;
+    
+}
+.content{
+    display: flex;
+    gap: 40Px;
+    align-items: center;
+}
+.content .description{
+    line-height: 40PX;
+    font-size: 20PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
+.content img{
+    width: 300px;
+    height: 300px;
+    border: 1PX solid white;
+    border-radius: 15PX;
+    box-shadow: 0 0  30PX black;
+    cursor: pointer;
+}
+.element h2{
+    padding: 30PX 30PX 0 30px;
+    text-shadow: 0px 0px 10px black;
+    letter-spacing: 1PX;
+}
+.element .story-text{
+    padding: 10PX 30PX 0 50px;
+    font-size: 17Px;
+    letter-spacing: 1PX;
+    font-family: cursive;
+}
+.chapters{
+    padding: 20PX 30PX 0 30px;
+    text-shadow: 0px 0px 10px black;
+    letter-spacing: 1PX;
+}
+.polo{
+    padding: 10PX 30PX 0 50px;
+    line-height: 28PX;
+    font-size: 20PX;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}

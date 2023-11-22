@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+body{
+    background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20PX;
+    margin: 60PX 0;
+}
+img{
+    width: 140PX;
+}
+.text-content{
+    letter-spacing: 2PX;
+}
+.text-content .manga{
+    font-size: 45PX;
+}
+.text-content .text-manga{
+    font-size: 35PX;
+}
+.text-content .arab-text{
+    text-align: center;
+    font-size: 28PX;
+    padding-top: 5PX;
+    word-spacing: 8px;
+}
+.box-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 15px 20PX;
+    padding: 0 20PX;
+}
+.box-content .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25PX;
+    background-color: ;
+    width: 190px;
+    height: 140px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px black;
+    border: 1PX solid black;
+    padding: 0 5PX;
+    transition: .5s;
+}
+.box-content .box:hover{
+    background-color: rgb(24, 24, 66);
+}
+.box i,p{
+    font-size: 30PX;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30PX 0 30px 0 ;
+    gap: 0 3PX;
+}
+.search-bar #search{
+    padding: 10PX;
+    padding-left: 15PX;
+    width: 500px;
+    outline: none;
+    border-radius: 25px;
+    color: black;
+    font-size: 20PX;
+}
+.search-bar #search::placeholder{
+    padding-left: 5PX;
+    letter-spacing: 1PX;
+}
+.search{
+    padding: 13PX 16PX;
+    background-color: transparent;
+    font-size: 20PX;
+    border: 2PX solid white;
+    border-radius: 20PX;
+    cursor: pointer;
+    letter-spacing: 1PX;
+}
+.search:hover{
+    background-color: rgb(24, 24, 66);
+}
