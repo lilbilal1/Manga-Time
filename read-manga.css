@@ -17,6 +17,7 @@ body{
 }
 .content{
     display: flex;
+    flex-wrap: wrap;
     gap: 40Px;
     align-items: center;
 }
