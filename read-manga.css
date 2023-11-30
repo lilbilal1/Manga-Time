@@ -60,3 +60,11 @@ a{
     text-decoration: none;
     color: blue;
 }
+@media screen and (max-width:600PX){
+
+    .contain{
+        box-shadow: none;
+        border: none;
+    }
+    
+}
