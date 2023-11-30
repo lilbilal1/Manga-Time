@@ -66,9 +66,29 @@ a{
         box-shadow: none;
         border: none;
     }
-     .content img{
+    .content img{
         width: 100%;
         height: 320px;
+    }
+    .element h2{
+        padding:0PX 0PX 0 0px;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    .element .story-text{
+        padding:10PX 15PX 0 15px;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    .chapters{
+        padding:15PX 0PX 0 0px;
+        margin: 0;
+        font-family: sans-serif;
+    }
+    .polo{
+        padding: 10PX 15PX 0 15px;
+        line-height: 28PX;
+        font-size: 20PX;
     }
     
 }
